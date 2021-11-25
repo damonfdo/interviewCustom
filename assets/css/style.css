@@ -186,13 +186,13 @@ h6 {
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #fcee21;
   font-weight: 600;
 }
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #31a9e1;
+  color: #000;
+  background: #fcee21;
 }
 .navbar .dropdown ul {
   display: block;
@@ -384,10 +384,12 @@ h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  background: rgb(0, 135, 202);
+  border: #fcee21 solid 2px;
 }
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #fcee21;
+  color: #000;
 }
 #hero .btn-watch-video {
   font-size: 16px;
@@ -405,8 +407,9 @@ h6 {
   transition: 0.3s;
   margin-right: 8px;
 }
-#hero .btn-watch-video:hover i {
-  color: #47b2e4;
+#hero .btn-watch-video:hover i,
+#hero .btn-watch-video:hover span {
+  color: #fcee21;
 }
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -523,6 +526,7 @@ section {
 .cliens {
   padding: 12px 0;
   text-align: center;
+  background-color: #000 !important;
 }
 .cliens img {
   max-width: 45%;
@@ -817,12 +821,12 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
+  border: 2px solid #fcee21;
   color: #fff;
 }
 .cta .cta-btn:hover {
-  background: #47b2e4;
-  border: 2px solid #47b2e4;
+  background: #fcee21;
+  color: #000;
 }
 @media (max-width: 1024px) {
   .cta {
